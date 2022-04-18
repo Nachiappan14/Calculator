@@ -1,6 +1,8 @@
 - name: Pull and Run docker image
   hosts: localhost
   connection: local
+  vars:
+    ansible_python_interpreter: /home/nachiappan-senthil-kumar/.anaconda3/bin/python
   tasks:
     - name: Pull image
       docker_image:
