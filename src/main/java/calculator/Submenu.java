@@ -29,9 +29,9 @@ public class Submenu {
                         "1. Square \n" +
                         "2. Cube \n" +
                         "3. Variable Exponent \n" +
-                        "5. Square Root \n" +
-                        "4. Return to Exponent Menu \n" +
-                        "5. Return to Main Menu \n");
+                        "4. Square Root \n" +
+                        "5. Return to Exponent Menu \n" +
+                        "6. Return to Main Menu \n");
 		Integer input2 = scanner.nextInt();
 
         CalcFunction.performExponentOperation(input2);

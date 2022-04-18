@@ -79,7 +79,7 @@ public class CalcFunction {
                 CalcMenu.calculatorMenu();
                 break;
             case 3:
-            	println("format: log(a) base(b)");
+            	println("format: a power (b)");
 	        	println("Enter a");
 	            num1 = scanner.nextDouble();
 	            println("Enter b");

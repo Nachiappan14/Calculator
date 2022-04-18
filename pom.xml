@@ -5,8 +5,27 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>Calculator</name>
   <description>A simple terminal based calculator used for demonstration of pipeline</description>
-  
-	<dependencies>
+  <build>
+  	<plugins>
+      <plugin>
+        <artifactId>maven-assembly-plugin</artifactId>
+        <executions>
+          <execution>
+            <phase>package</phase>
+            <goals>
+              <goal>single</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <descriptorRefs>
+            <descriptorRef></descriptorRef>
+          </descriptorRefs>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  <dependencies>
 		<dependency>
 	        <groupId>junit</groupId>
 	        <artifactId>junit</artifactId>
